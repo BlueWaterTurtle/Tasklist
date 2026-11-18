@@ -1,4 +1,22 @@
 # Tasklist
-app to track my tasks
-This is an attempt to rebuild my todo app in Java. Python may have been a mistake as it takes a moment to load the program and i'm not sure it looks responsive enough. 
-I need this to work. I don't like interfacing through a python script. I need Java. 
+
+A Java Swing app to track tasks.
+
+## Requirements
+
+- JDK 23
+- Apache Maven
+
+## Build
+
+```shell
+mvn clean package
+```
+
+## Run
+
+```shell
+mvn exec:java
+```
+
+Tasks are stored in `tasks.json` in the current working directory.
